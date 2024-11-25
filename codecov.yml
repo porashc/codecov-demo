@@ -1,0 +1,10 @@
+coverage:
+  status:
+    project:
+      default:
+        target: 100%
+        threshold: 1%
+    patch:
+      default:
+        target: 80%  # Require 80% coverage for new code/patches
+        threshold: 5%
